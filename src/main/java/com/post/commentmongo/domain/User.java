@@ -1,4 +1,4 @@
-package com.post.post.commentmongo.domain;
+package com.post.commentmongo.domain;
 
 import java.io.Serializable;
 import java.util.ArrayList;

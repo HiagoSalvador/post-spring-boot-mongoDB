@@ -1,4 +1,4 @@
-package com.post.post.commentmongo.resource;
+package com.post.commentmongo.resource;
 
 import java.net.URI;
 import java.util.List;
@@ -16,10 +16,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
-import com.post.post.commentmongo.domain.Post;
-import com.post.post.commentmongo.domain.User;
-import com.post.post.commentmongo.dto.UserDTO;
-import com.post.post.commentmongo.services.UserService;
+import com.post.commentmongo.domain.Post;
+import com.post.commentmongo.domain.User;
+import com.post.commentmongo.dto.UserDTO;
+import com.post.commentmongo.services.UserService;
 
 @RestController
 @RequestMapping(value = "/users")

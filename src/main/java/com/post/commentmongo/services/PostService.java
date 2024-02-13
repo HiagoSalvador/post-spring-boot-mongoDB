@@ -1,13 +1,13 @@
-package com.post.post.commentmongo.services;
+package com.post.commentmongo.services;
 
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.post.post.commentmongo.domain.Post;
-import com.post.post.commentmongo.repository.PostRepository;
-import com.post.post.commentmongo.services.exception.ObjectNotFoundException;
+import com.post.commentmongo.domain.Post;
+import com.post.commentmongo.repository.PostRepository;
+import com.post.commentmongo.services.exception.ObjectNotFoundException;
 
 @Service
 public class PostService {

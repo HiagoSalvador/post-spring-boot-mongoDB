@@ -1,4 +1,4 @@
-package com.post.post.commentmongo.resource;
+package com.post.commentmongo.resource;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.post.post.commentmongo.domain.Post;
-import com.post.post.commentmongo.services.PostService;
+import com.post.commentmongo.domain.Post;
+import com.post.commentmongo.services.PostService;
 
 @RestController
 @RequestMapping(value = "/posts")

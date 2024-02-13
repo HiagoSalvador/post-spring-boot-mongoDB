@@ -1,22 +1,25 @@
-package com.post.post.commentmongo.dto;
+package com.post.commentmongo.dto;
 
 import java.io.Serializable;
 
-import com.post.post.commentmongo.domain.User;
+import com.post.commentmongo.domain.User;
 
-public class AuthorDTO implements Serializable {
+public class UserDTO implements Serializable {
 	private static final long serialVersionUID = 1L;
 
 	private String id;
 	private String name;
+	private String email;
 
-	public AuthorDTO() {
+	public UserDTO() {
 
 	}
 
-	public AuthorDTO(User obj) {
+	public UserDTO(User obj) {
 		id = obj.getId();
 		name = obj.getName();
+		email = obj.getEmail();
+
 	}
 
 	public String getId() {
@@ -33,6 +36,14 @@ public class AuthorDTO implements Serializable {
 
 	public void setName(String name) {
 		this.name = name;
+	}
+
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
 	}
 
 }

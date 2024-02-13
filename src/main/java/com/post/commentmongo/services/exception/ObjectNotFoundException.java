@@ -1,4 +1,4 @@
-package com.post.post.commentmongo.services.exception;
+package com.post.commentmongo.services.exception;
 
 public class ObjectNotFoundException extends RuntimeException{
 	private static final long serialVersionUID = 1L;

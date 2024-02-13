@@ -1,4 +1,4 @@
-package com.post.post.commentmongo.resource.exception;
+package com.post.commentmongo.resource.exception;
 
 import java.io.Serializable;
 
